@@ -6,11 +6,90 @@ h1 {
   color: #025157;
   font-family: "Alegreya", serif;
   font-size: 60px;
-  margin-bottom: 24px;
   font-weight: 900;
+  margin-bottom: 24px;
+  margin-top: 0;
 }
 
 button {
   background-color: #025157;
   color: #ffffff;
+}
+
+.header {
+  margin: 40px 20px 0;
+  font-size: 0px;
+  height: 45px;
+  font-family: sans-serif;
+}
+
+.header > * {
+  display: inline-block;
+  font-size: 16px;
+}
+
+main {
+  margin-top: 250px;
+  text-align: center;
+}
+
+main > h4 {
+  color: #46484c;
+  font-family: serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+main > p {
+  color: #8b8b8bcc;
+  margin-top: 15px;
+  font-family: serif;
+  font-size: 20px;
+}
+
+li {
+  display: inline;
+}
+
+.logo {
+  width: 20%;
+}
+
+.navbar {
+  width: 60%;
+  text-align: center;
+  color: #025157;
+}
+
+.navbar > ul {
+  padding-left: 0;
+}
+
+.itemNavegacion {
+  margin: 0 25px;
+}
+
+.actions {
+  width: 20%;
+  text-align: center;
+  font-size: 14px;
+
+}
+
+.actions > * {
+  margin: 0 10px;
+}
+
+.actionsSignIn {
+  color: #67b54b;
+  text-decoration: none;
+}
+
+.actions > button {
+  background-color: #67b54b;
+  color: #ffffff;
+  padding: 12px 14px;
+  border: 0;
+  border-radius: 5px;
 }
