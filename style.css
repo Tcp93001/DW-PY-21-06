@@ -48,6 +48,28 @@ main > p {
   font-size: 20px;
 }
 
+.enter-mail {
+  height: 45px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.banner {
+  margin-top: 2rem;
+  vertical-align: middle;
+  padding: 0 10%;
+}
+
+.intro {
+  margin-top: 32px;
+  vertical-align: middle;
+  padding: 0 10%;
+}
+
+.intro > img {
+  width: 70%;
+}
+
 li {
   display: inline;
 }
