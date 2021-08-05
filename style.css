@@ -14,6 +14,18 @@ h1 {
 button {
   background-color: #025157;
   color: #ffffff;
+  border: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  height: 50px;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #fffbf7;
 }
 
 .header {
@@ -21,6 +33,7 @@ button {
   font-size: 0px;
   height: 45px;
   font-family: sans-serif;
+  display: flex;
 }
 
 .header > * {
@@ -50,8 +63,9 @@ main > p {
 
 .enter-mail {
   height: 45px;
-  margin-right: 10px;
+  margin-right: -5px;
   padding: 10px;
+  border: none;
 }
 
 .banner {
@@ -114,4 +128,47 @@ li {
   padding: 12px 14px;
   border: 0;
   border-radius: 5px;
+}
+
+.publish {
+  padding-left: 5px;
+  flex: 1;
+}
+
+.publish > h3 {
+  color: #025157;
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+}
+
+.publish .publish-text {
+  color: #343434;
+  font-family: "Open Sans", serif;
+}
+
+.publish .publish-gray {
+  color: #8b8b8bcc;
+  font-family: "Open Sans", serif;
+}
+
+.promo {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.promo > article > figure >img {
+  width: 120px;
+  margin-top: 10px;
 }

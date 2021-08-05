@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>
     Matcha
@@ -15,29 +16,33 @@
 </head>
 
 <body>
-  <header class="header">
-    <!-- Logo con link de navegación -->
-    <a href="" class="logo">
-      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Imagen de Matcha">
-    </a>
 
-    <!-- Menu de navegacion -->
-    <nav class="navbar">
-      <ul>
-        <li class="itemNavegacion">Pricing</li>
-        <li class="itemNavegacion">Platform</li>
-        <li class="itemNavegacion">Customers</li>
-        <li class="itemNavegacion">Resources</li>
-        <li class="itemNavegacion">About</li>
-      </ul>
-    </nav>
+  <section class="fixed-header">
+    <header class="header">
+      <!-- Logo con link de navegación -->
+      <a href="" class="logo">
+        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Imagen de Matcha">
+      </a>
 
-    <!-- Contenedor de acciones -->
-    <div class="actions">
-      <a class="actionsSignIn" href="">Sign In</a>
-      <button>Start free trial</button>
-    </div>
-  </header>
+      <!-- Menu de navegacion -->
+      <nav class="navbar">
+        <ul>
+          <li class="itemNavegacion">Pricing</li>
+          <li class="itemNavegacion">Platform</li>
+          <li class="itemNavegacion">Customers</li>
+          <li class="itemNavegacion">Resources</li>
+          <li class="itemNavegacion">About</li>
+        </ul>
+      </nav>
+
+      <!-- Contenedor de acciones -->
+      <div class="actions">
+        <a class="actionsSignIn" href="">Sign In</a>
+        <button>Start free trial</button>
+      </div>
+    </header>
+  </section>
+
   <main>
     <h1>Build your blog. Build your business</h1>
 
@@ -61,6 +66,41 @@
       <img src="https://getmatcha.com/wp-content/uploads/2019/09/intro_group_image.png" alt="Intro Matcha">
     </figure>
   </main>
+
+  <section class="promo">
+    <article class="explanatory-video">
+      <video controls
+        poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
+        <source type="video/webm"
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm" />
+        <source type="video/mp4"
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" />
+      </video>
+      <figure>
+        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png" alt="See how it works">
+      </figure>
+    </article>
+
+    <article class="publish">
+      <h3>Publish to your blog in minutes, not hours.</h3>
+
+      <p class="publish-text">
+        Your blog is your most powerful asset to build, engage, and retain a loyal audience. But you don’t have hours
+        to create content that may or may not work. With Matcha, instantly publish from our library of 10,000+
+        professionally written articles and build your email list faster with our powerful conversion tool.
+      </p>
+
+      <p class="publish-gray">Start publishing today:</p>
+
+      <form>
+        <input class="enter-mail" placeholder="Enter email address" type="email" />
+        <button type="submit">
+          Try it now &rarr;
+        </button>
+      </form>
+    </article>
+
+  </section>
 
 </body>
 
