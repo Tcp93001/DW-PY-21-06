@@ -1,5 +1,7 @@
 body {
   background-color: #fffbf7;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 h1 {
@@ -171,4 +173,77 @@ li {
 .promo > article > figure >img {
   width: 120px;
   margin-top: 10px;
+}
+
+.features {
+  display: grid;
+  grid-template: repeat(2, 2fr) / repeat(2, 1fr);
+  height: 660px;
+  background-color: #025157;
+  padding: 5% 10%;
+}
+
+.feature-card {
+  background-color: #ffffff;
+  margin: 0 15px 30px;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.features .feature-card .feature-content {
+  padding: 30px 20px 40px 40px;
+  flex: 2;
+}
+
+.features .feature-card .feature-content > * {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.features .feature-card .feature-content img {
+  width: 50px;
+}
+.features .feature-card .feature-content figure {
+  margin: 0;
+}
+
+.features .feature-card .feature-content h3 {
+  font-size: 24px;
+  color: #343434;
+  font-weight: 400;
+}
+
+.features .feature-card .feature-content p {
+  font-size: 16px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+
+.features .feature-card .feature-content a {
+  font-size: 16px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.features .feature-card .feature-image {
+  flex: 1;
+  width: 40%;
+  position: relative;
+  right: -50px;
+  height: 80%;
+  transition: right 0.3s;
+}
+
+.features .feature-card .feature-image figure,
+.features .feature-card .feature-image img {
+  margin-top: 0;
+  height: 100%;
+}
+
+.features .feature-card .feature-image:hover {
+  right: -20px;
 }
