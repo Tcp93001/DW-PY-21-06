@@ -28,14 +28,17 @@ button {
   left: 0;
   right: 0;
   background: #fffbf7;
+  z-index: 2;
 }
 
 .header {
-  margin: 40px 20px 0;
+  margin: 5px 20px 0;
   font-size: 0px;
   height: 45px;
   font-family: sans-serif;
   display: flex;
+  align-items:center;
+  padding: 25px;
 }
 
 .header > * {
@@ -247,3 +250,76 @@ li {
 .features .feature-card .feature-image:hover {
   right: -20px;
 }
+
+@media (max-width: 425px) {
+  .navbar,
+  .actions {
+    display: none;
+  }
+
+  main {
+    margin-top: 130px;
+  }
+
+  h1 {
+    font-size: 1.875rem;
+  }
+
+  .banner > img {
+    width: 100%;
+  }
+
+  .intro > img {
+    width: 100%;
+  }
+
+  .promo {
+    flex-direction: column;
+    width: 90%;
+    margin-top: 25px;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+
+  .publish > h3 {
+    font-size: 25px;
+    margin-top: 10px;
+    line-height: 1.2;
+    text-align: justify;
+  }
+
+  .publish > form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .publish > form > div {
+    height: 60px;
+    margin-top: 10px;
+  }
+
+  .publish > form > div > input {
+    width: 55%;
+  }
+
+  .features {
+    grid-template: repeat(4, 1fr) / 1fr;
+    height: 780px;
+    padding: 10px;
+  }
+
+  .features .feature-card .feature-content {
+    padding: 10px;
+  }
+
+  .features .feature-card .feature-content h3 {
+    font-size: 10px;
+  }
+
+  .feature-image {
+    display: none;
+  }
+}
+
