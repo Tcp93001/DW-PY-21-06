@@ -1,4 +1,10 @@
+// esta sintaxis es para usarla con el Sass de terminal
 @use 'global' as *;
+
+// esta versión de @use se usa para importar parciales usando la extensión
+// Live Sass Compiler
+// @import 'global';
+
 
 .blog {
   background-color: $white;
